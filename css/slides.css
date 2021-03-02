@@ -1,0 +1,123 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    /* background: #f1f1f1f1; */
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .prev {
+    position: absolute;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    /* background: #ddd; */
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: right;
+  }
+
+  .column2 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Clear floats after the columns */
+  .rowx {
+    background-color:rgba(170, 170, 170, 0.1);
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .rowx:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 20px;
+  }
+
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .column, .column1, .column2 {
+      width:100%;
+    }
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+  }

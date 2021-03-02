@@ -1,12 +1,76 @@
 # Site settings
 title: LuminAwe Global LLC
 email: marketing@luminawe.global
-description: > # this means to ignore newlines until "baseurl:"
+description: AI for Human Sustainability > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "luminawe.global" # the base hostname & protocol for your site
+url: "luminawe.global" # the base hostname & protocol for your sitee
+story:
+  title: 'Our Journey'
+  first: '"<b>LuminAwe</b>" word came from the words illuminate and awe or awesome. 
+          While "<b>Global</b>" word pretty much describes our team, which is very diverse, 
+          multicultural, and multidisciplinary, from scientists and engineers to marketers 
+          and business people.'
+  second: 'Our journey begins in 2020 in Houston, TX, focusing on implementing Artificial 
+          Intelligence and technology for human sustainability, now we do <b>Artificial 
+          Intelligence</b> in the field of <b>medical science</b>, <b>genetics</b>, 
+          <b>biotechnology</b>, and <b>sustainable farming</b>.'
+product:
+  first:
+    title: GATADx
+    short: AI in the field of medical diagnostics and genomics science.
+    long: Carry out genomics-based research means that we strive to cure any 
+          known diseases, prevent them to happen in the future, and improve 
+          human sustainability. The AI development that we currently do aims 
+          to optimize both the research and clinical trials, while also become 
+          a measure for early detections of diseases.
+  second:
+    title: COVID-19 Detection System
+    short: Ultra high throughput magnetic Resonance system.
+    long: By utilizing special probe, reagents and widely available MR machine,
+          the Ultra High Throughput, High Volume, Low Cost, Direct-saliva
+          COVID-19 Detection System is able to increase the processing rate
+          up to 200k of samples per day. Can be implemented either for 
+          population screening or on the spot scanning by using a mobile
+          unit.
+  third:
+    title: FaRMind
+    short: Crop diseases detection and mitigation systems.
+    long: Early detection and mitigation of crops disesases are one of the key
+          to improve both quality and quantity of agricultural production especially
+          in the under developed nations. Our mission is to make use of machine learning
+          computer vision technology to help these farmers solve their problem early and
+          improve their production, and eventually their economy.
 
-twitter_username:
-github_username: luminawe-global
+address:
+  - line: 3110 Castlewood Street
+  - line: Houston, TX 77025
+  - line: USA
+
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/luminawe-global/
+  - title: facebook
+    url:
+  - title: twitter
+    url: 
+  - title: instagram
+    url: 
+  - title: github
+    url: https://github.com/luminawe-global
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
+
+footer:
+  copyright: LuminAwe Global LLC
+  location: LuminAwe Global LLC
+  social: Around the Web
+  notes: Manifesto
+
+# Notes content
+notes: We democratize and optimize AI so that everyone can have the opportunity for a better business and a better life.
+
